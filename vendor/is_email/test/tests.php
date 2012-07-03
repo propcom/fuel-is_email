@@ -167,7 +167,9 @@ class is_email_test {
 		$result			= /*.(array[string]mixed).*/ array('actual' => array());
 		$parsedata		= /*.(array[string]string).*/ array();
 
-		$diagnosis_value		= is_email($email, true, true, &$parsedata);
+		//$diagnosis_value		= is_email($email, true, true, &$parsedata);
+		// PHP Fatal error:  Call-time pass-by-reference has been removed in /fuel/packages/is_email/vendor/is_email/test/tests.php on line 170
+		$diagnosis_value		= is_email($email, true, true, $parsedata);
 
 		$result['actual']['diagnosis']	= $diagnosis_value;
 		$result['actual']['parsedata']	= $parsedata;
