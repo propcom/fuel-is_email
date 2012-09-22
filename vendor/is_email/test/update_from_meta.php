@@ -107,7 +107,5 @@ $filename	= '../is_email.php';
 $php		= file_get_contents($filename);
 $php		= replace($php, 'diagnostic constants',	$constants_categories_define . PHP_EOL . $constants_diagnoses_define);
 
-//echo $constants_categories_define; // debug
-//echo $constants_diagnoses_define; // debug
 file_put_contents($filename, $php);
 ?>
