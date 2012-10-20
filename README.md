@@ -1,5 +1,3 @@
 # DEPRECATED
 
-Use [propcom/fuel-isemail](https://github.com/propcom/fuel-isemail/) instead.
-
-This is repository hasn't been deleted yet, and probably won't be, as doing so might break ALL THE THINGS.
+Even though this repository won't be deleted, again, use [fuel-packages/fuel-is_email](https://github.com/fuel-packages/fuel-is_email) instead.
